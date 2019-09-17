@@ -1,6 +1,7 @@
-import re
 import os.path
-from setuptools import setup, find_packages
+import re
+
+from setuptools import find_packages, setup
 
 _here = os.path.abspath(os.path.dirname(__file__))
 requirements_path = os.path.join(_here, 'requirements', 'requirements.txt')
