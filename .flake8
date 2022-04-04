@@ -1,0 +1,7 @@
+[flake8]
+max-line-length=120
+ignore = D203
+exclude = .git,__pycache__,old,build,dist,venv
+
+application-import-names = plan_your_travel
+import-order-style = google
